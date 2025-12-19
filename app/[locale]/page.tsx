@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/layout/ModeToggle";
 import { Button } from "@/components/ui/button";
 import { i18n, Locale } from "@/i18n";
 import { getDictionary } from "@/lib/dictionaries";
@@ -25,7 +26,7 @@ export default async function Home({params}:HomePageProps) {
       <p className="text-muted-foreground max-w-xl text-center">
         {dict.site.description}
       </p>
-
+      <ModeToggle/>
     </main>
 
   );
