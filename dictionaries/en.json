@@ -9,5 +9,17 @@
         "archive": "Archive",
         "tags": "Tags",
         "about": "About"
+    },
+    "footer": {
+        "recentPostTitle": "Recent Posts",
+        "menuTitle": "Menu",
+        "pagesTitle": "Pages",
+        "pages": {
+            "about": "About",
+            "contact": "Contact",
+            "elements": "Elements"
+        },
+        "copyrightPrefix": "All Right Reserved.",
+        "publishedWith": "Published with"
     }
 }

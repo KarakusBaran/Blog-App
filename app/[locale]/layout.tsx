@@ -1,3 +1,4 @@
+import SiteFooter from '@/components/layout/SiteFooter';
 import SiteHeader from '@/components/layout/SiteHeader';
 import { i18n, Locale } from '@/i18n'
 import { getDictionary } from '@/lib/dictionaries';
@@ -20,6 +21,7 @@ const LocaleLayout = async({children,params}:LayoutProps) => {
         <div>
             <SiteHeader dict={dict} locale={locale} />
             {children}
+            <SiteFooter dict={dict} locale={locale} />
         </div>
     )
 }
